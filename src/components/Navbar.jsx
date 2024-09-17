@@ -14,7 +14,7 @@ const Navbar = () => {
             <img src={Logo} alt="" />
           </div>
           <div className="w-3/4">
-            <ul className="flex justify-end">
+            <ul className={`lg:flex text-center py-5 lg:py-0 lg:static justify-end absolute z-[2] left-0 duration-300 ease-in-out top-0 ${show == true ? " bg-[gray] top-[148px] sm:top-[168px] w-full" : "top-[-360px] w-full" }`}>
               <li className="text-[16px] font-pops text-white font-semibold hover:text-[#282828] duration-300 ease-in-out p-4">
                 Home
               </li>

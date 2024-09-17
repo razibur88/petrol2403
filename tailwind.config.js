@@ -12,6 +12,9 @@ export default {
       fontFamily: {
         pops: ["Poppins", "sans-serif"],
       },
+      backgroundImage:{
+        ban:"url('./assets/banner.png')"
+      }
     },
   },
   plugins: [],
